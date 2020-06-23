@@ -1,13 +1,9 @@
 class Person
-  def name= (name)
-    @name = name
-end
 
-def name
-  @name
+def initialize(name)
+  @name = name
 end
 
 
 end
 
-person.new("Beyonce")
